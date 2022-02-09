@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-  <Grid>
+  <Grid Background="{ThemeResource HomePageBackgroundBrush}">
     <Grid.RowDefinitions>
       <RowDefinition Height="Auto" />
       <RowDefinition Height="*" />
@@ -29,7 +29,7 @@
         </DropDownButton.Flyout>
       </DropDownButton>
 
-      <ToggleSwitch AutomationProperties.Name="simple ToggleSwitch" x:Name="dark_switch" Grid.Column="1" CornerRadius="3" VerticalAlignment="Center" HorizontalAlignment="Right" MinWidth="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+      <ToggleSwitch Toggled="ToggleSwitch_Toggled" AutomationProperties.Name="simple ToggleSwitch" x:Name="dark_switch" Grid.Column="1" CornerRadius="3" VerticalAlignment="Center" HorizontalAlignment="Right" MinWidth="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
     </Grid>
 
     <Grid x:Name="Control1" Grid.Row="1" ColumnSpacing="30" RowSpacing="12"

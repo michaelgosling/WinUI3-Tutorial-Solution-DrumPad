@@ -14,6 +14,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using System.Media;
 
+
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
@@ -41,6 +42,15 @@ namespace DrumPad {
       var button = (Button) sender;
       var soundName = button.Tag.ToString();
       findAndPlayWavAsset(soundName);
+    }
+
+    private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e) {
+      ToggleSwitch toggleSwitch = (ToggleSwitch) sender;
+      if (toggleSwitch.IsOn) {
+        ((FrameworkElement) this.Content).RequestedTheme = ElementTheme.Dark;
+      } else {
+        ((FrameworkElement) this.Content).RequestedTheme = ElementTheme.Light;
+      }
     }
   }
 }
