@@ -58,25 +58,25 @@
         </Style>
       </Grid.Resources>
 
-      <Button Background="#FF0000" Grid.Row="0" Grid.Column="0" Content="Kick 1"/>
-      <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" Content="Kick 2"/>
-      <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" Content="Kick 3"/>
-      <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" Content="Kick 4"/>
+      <Button Background="#FF0000" Grid.Row="0" Grid.Column="0" Content="Rim" Tag="rim" Click="pad_Click"/>
+      <Button Background="#C4425A" Grid.Row="0" Grid.Column="1" Content="Crash" Tag="crash" Click="pad_Click"/>
+      <Button Background="#D41DD8" Grid.Row="0" Grid.Column="2" Content="Elec 1" Tag="elec1" Click="pad_Click"/>
+      <Button Background="#6A21A3" Grid.Row="0" Grid.Column="3" Content="High Snare 1" Tag="high_snare" Click="pad_Click"/>
 
-      <Button Background="#C4425A" Grid.Row="1" Grid.Column="0" Content="Clap 1"/>
-      <Button Background="#D41DD8" Grid.Row="1" Grid.Column="1" Content="Clap 2"/>
-      <Button Background="#6A21A3" Grid.Row="1" Grid.Column="2" Content="Clap 3"/>
-      <Button Background="#473DB8" Grid.Row="1" Grid.Column="3" Content="Clap 4"/>
+      <Button Background="#C4425A" Grid.Row="1" Grid.Column="0" Content="High Snare 2" Tag="high_snare2" Click="pad_Click"/>
+      <Button Background="#D41DD8" Grid.Row="1" Grid.Column="1" Content="Kick" Tag="kick" Click="pad_Click"/>
+      <Button Background="#6A21A3" Grid.Row="1" Grid.Column="2" Content="Snare" Tag="snare" Click="pad_Click"/>
+      <Button Background="#473DB8" Grid.Row="1" Grid.Column="3" Content="Tom" Tag="tom" Click="pad_Click"/>
 
-      <Button Background="#D41DD8" Grid.Row="2" Grid.Column="0" Content="Open Hat 1"/>
-      <Button Background="#6A21A3" Grid.Row="2" Grid.Column="1" Content="Open Hat 2"/>
-      <Button Background="#473DB8" Grid.Row="2" Grid.Column="2" Content="Open Hat 3"/>
-      <Button Background="#26AAC7" Grid.Row="2" Grid.Column="3" Content="Open Hat 4"/>
+      <Button Background="#D41DD8" Grid.Row="2" Grid.Column="0" Content="Trash" Tag="trash" Click="pad_Click"/>
+      <Button Background="#6A21A3" Grid.Row="2" Grid.Column="1" Content="Clip 1" Tag="clip1" Click="pad_Click"/>
+      <Button Background="#473DB8" Grid.Row="2" Grid.Column="2" Content="Clip 2" Tag="clip2" Click="pad_Click"/>
+      <Button Background="#26AAC7" Grid.Row="2" Grid.Column="3" Content="Clip 3" Tag="clip3" Click="pad_Click"/>
 
-      <Button Background="#6A21A3" Grid.Row="3" Grid.Column="0" Content="Snare 1"/>
-      <Button Background="#473DB8" Grid.Row="3" Grid.Column="1" Content="Snare 2"/>
-      <Button Background="#26AAC7" Grid.Row="3" Grid.Column="2" Content="Snare 3"/>
-      <Button Background="#1A7BD6" Grid.Row="3" Grid.Column="3" Content="Snare 4"/>
+      <Button Background="#6A21A3" Grid.Row="3" Grid.Column="0" Content="Clip 4" Tag="clip4" Click="pad_Click"/>
+      <Button Background="#473DB8" Grid.Row="3" Grid.Column="1" Content="Clip 5" Tag="clip5" Click="pad_Click"/>
+      <Button Background="#26AAC7" Grid.Row="3" Grid.Column="2" Content="Clip 6" Tag="clip6" Click="pad_Click"/>
+      <Button Background="#1A7BD6" Grid.Row="3" Grid.Column="3" Content="Clip 7" Tag="clip7" Click="pad_Click"/>
     </Grid>
   </Grid>
 
